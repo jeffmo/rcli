@@ -1,7 +1,7 @@
 [package]
 name = "rcli"
 authors = ["Jeff Morrison <lbljeffmo@gmail.com>"]
-description = "A maximally declarative, build-time CLI parser generator."
+description = "A maximally declarative, CLI parser generator for Rust."
 edition = "2018"
 license = "MIT"
 version = "0.0.0"

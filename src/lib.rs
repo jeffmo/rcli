@@ -72,7 +72,7 @@ macro_rules! __rcli_expand_struct_impl {
 }
 
 #[macro_export]
-macro_rules! rcli_struct {
+macro_rules! rcli {
   (struct $struct_name:ident $params:tt) => {
     __rcli_expand_struct!($struct_name, $params);
     //trace_macros!(true);

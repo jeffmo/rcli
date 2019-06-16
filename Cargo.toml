@@ -4,4 +4,5 @@ authors = ["Jeff Morrison <lbljeffmo@gmail.com>"]
 description = "A maximally declarative, CLI parser generator for Rust."
 edition = "2018"
 license = "MIT"
+repository = "https://github.com/jeffmo/rcli"
 version = "0.0.0"

@@ -5,10 +5,3 @@ description = "A maximally declarative, CLI parser generator for Rust."
 edition = "2018"
 license = "MIT"
 version = "0.0.0"
-
-#[lib]
-#proc-macro = true
-
-[dependencies]
-quote = "0.6.12"
-syn = "0.15.35"

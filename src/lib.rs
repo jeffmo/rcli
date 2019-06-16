@@ -1,32 +1,3 @@
-//extern crate proc_macro;
-//extern crate syn;
-//#[macro_use]
-//extern crate quote;
-
-/*
-#[proc_macro_derive(RCLI)]
-pub fn rcli_derive(input: TokenStream) -> TokenStream {
-  // TODO: Impl .expect()
-  let ast = syn::parse(input).unwrap();
-
-  process_rcli_declaration(&ast)
-}
-
-fn process_rcli_declaration(_ast: &syn::DeriveInput) -> TokenStream {
-  let gen = quote! {
-    fn callme() {
-      println!("It works!")
-    }
-  };
-  gen.into()
-}
-*/
-
-pub enum RequiredOpt<T> {
-  Some(T),
-  None
-}
-
 pub struct ParamMetadata {
   pub aliases: Vec<String>,
   pub allow_multiple: bool,
